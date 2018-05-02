@@ -17,3 +17,6 @@ sudo apt -y install mysql-server
 # Usage: locate filename or keyboard of the filename
 sudo apt install locate
 
+
+#Installing gnupg
+sudo apt install gnupg2
