@@ -17,6 +17,12 @@ sudo apt -y install mysql-server
 # Usage: locate filename or keyboard of the filename
 sudo apt install locate
 
-
 #Installing gnupg
 sudo apt install gnupg2
+
+# Installing RVM
+command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+
+# Installling bundler - ruby package manager
+gem install bundler
