@@ -21,3 +21,8 @@ sudo apt -y install git-core
 
 # spice up the cli with icons
 sudo apt -y install fonts-powerline
+
+# Installing brackets code editor
+sudo add-apt-repository ppa:webupd8team/brackets
+sudo apt update
+sudo apt -y  install brackets
