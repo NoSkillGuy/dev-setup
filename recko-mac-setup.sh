@@ -59,8 +59,10 @@ ln -sf /Applications/elasticsearch-6.3.2/bin/elasticsearch /usr/local/bin/elasti
 # Install kibana
 brew install kibana
 
-# Install mysql
-brew install mysql
+# Install mysql for 5.7
+brew install mysql@5.7
+# Install latest version of mysql 
+# brew install mysql
 
 # Install docker 
 
