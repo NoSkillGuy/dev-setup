@@ -67,7 +67,7 @@ brew install mysql@5.7
 # Install docker 
 
 wget -P /Applications https://download.docker.com/mac/stable/Docker.dmg
-open /Applications https://download.docker.com/mac/stable/Docker.dmg
+open /Applications/Docker.dmg
 
 # Install Virtual Box
 brew cask install virtualbox
